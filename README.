@@ -1,0 +1,13 @@
+com.google.android.apps.messaging(20484):
+
+type=1400 audit(0.0:107812): avc: denied { read } for comm=424720546872656164202337
+
+name="u:object_r:vendor_tct_prop:s0"
+
+dev="tmpfs" ino=14550 scontext=u:r:untrusted_app:s0:c191,c256,c512,c768
+
+tcontext=u:object_r:vendor_tct_prop:s0 tclass=file permissive=0
+
+app=com.google.android.apps.messaging 06-01 15:13:27.713 D/
+
+NetworkController.MobileSignal Controller(1)
